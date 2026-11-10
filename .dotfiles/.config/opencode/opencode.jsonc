@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "ollama": {
+      "models": {
+        "claude-mini": {
+          "limit": {
+            "context": 8192,  // Suits best the 16GB GPU
+            "output": 2048    // Set limits to 2048 tokens for the agent to avoid OOM
+          }
+        }
+      }
+    }
+  }
+}
