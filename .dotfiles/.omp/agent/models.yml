@@ -1,0 +1,8 @@
+providers:
+  ollama:
+    baseUrl: "http://localhost:11434/v1"
+    api: "openai-responses"
+    models:
+      - id: "claude-mini"
+        contextWindow: 4096
+        maxTokens: 4096
