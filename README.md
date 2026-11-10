@@ -10,7 +10,7 @@ You need Ollama first to run this project.
 git clone https://github.com/claude-amd/claude-amd.git
 cd claude-amd
 ollama create claude-mini -f ./Modelfile
-cp -r .dotfiles ~/
+cp -r ./.dotfiles/. ~/
 ```
 
 Then copy via shell or manually contents for:

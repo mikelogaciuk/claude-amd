@@ -1,3 +1,3 @@
 FROM logicbeat/qwen3.8-27B_GSQ_RCO:latest
 PARAMETER num_ctx 8192
-PARAMETER num_predict -1
+PARAMETER num_predict 4096

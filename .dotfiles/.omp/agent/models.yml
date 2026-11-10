@@ -4,5 +4,5 @@ providers:
     api: "openai-responses"
     models:
       - id: "claude-mini"
-        contextWindow: 8192
-        maxTokens: 2048
+        contextWindow: 4096
+        maxTokens: 4096
