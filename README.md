@@ -6,6 +6,8 @@
 
 You need Ollama first to run this project.
 
+You should (or not) have `Opencode`, `Pi` and `Omp (oh-my-pi)` installed on your system to get some fun.
+
 ```sh
 git clone https://github.com/claude-amd/claude-amd.git
 cd claude-amd
