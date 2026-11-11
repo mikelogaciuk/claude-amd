@@ -4,8 +4,8 @@
       "models": {
         "claude-mini": {
           "limit": {
-            "context": 4096,  // Suits best the 16GB GPU
-            "output": 4096    // Set limits to 4096 tokens for the agent to avoid OOM
+            "context": 12288,  // Suits best the 16GB GPU
+            "output": 8192,  // 2048 tokens is a good balance between performance and memory
           }
         }
       }
