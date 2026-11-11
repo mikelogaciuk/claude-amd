@@ -1,5 +1,6 @@
 FROM gemma4:12b
 PARAMETER temperature 0.1
 PARAMETER top_p 0.9
-PARAMETER num_ctx 12288
-PARAMETER num_predict 8192
+#PARAMETER num_ctx 12288
+PARAMETER num_ctx 81920
+PARAMETER num_predict 81920

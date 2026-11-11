@@ -2,6 +2,10 @@
 
 ![Header](./public/img/logo.jpeg)
 
+## Description
+
+This is some battleground for local AI Agents using Gemma4:12B on GPU with 16G of VRAM.
+
 ## Setup
 
 You need Ollama first to run this project.
@@ -33,6 +37,18 @@ Or via `agents`:
 pi
 omp
 opencode
+```
+
+## Fine tuning
+
+The model can be fine-tuned using its context window in `Modelfile`.
+
+For example, the context of 12288 was using only 1.5G of VRAM:
+
+```shell
+$ ollama ps
+NAME                  ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL              
+claude-mini:latest    f4ed661a81f0    1.5 GB    100% GPU     12288      llamacpp    3 minutes from now    
 ```
 
 ## License

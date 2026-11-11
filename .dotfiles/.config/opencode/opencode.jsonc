@@ -4,8 +4,9 @@
       "models": {
         "claude-mini": {
           "limit": {
-            "context": 12288,  // Suits best the 16GB GPU
-            "output": 8192,  // 2048 tokens is a good balance between performance and memory
+            // "context": 12288,  // Default value for testing-learning purposes (uses about only 1.5G of VRAM with context window of 12288)
+            "context": 81920,
+            "output": 81920,
           }
         }
       }
