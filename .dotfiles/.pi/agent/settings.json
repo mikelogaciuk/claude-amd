@@ -1,6 +1,6 @@
 {
   "defaultModel": "ollama/claude-mini",
-  "reserveTokens": 3072,
-  "keepRecentTokens": 4096,
+  "reserveTokens": 81920,
+  "keepRecentTokens": 81920,
   "autoCompact": true
 }

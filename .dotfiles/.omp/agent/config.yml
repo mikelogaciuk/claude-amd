@@ -1,6 +1,6 @@
 defaultModel: "ollama/claude-mini"
-reserveTokens: 12888
-keepRecentTokens: 12888
+reserveTokens: 81920
+keepRecentTokens: 81920
 memoryCuration:
   enabled: true
   strategy: "summarize_old_tools"

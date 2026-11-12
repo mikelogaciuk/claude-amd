@@ -51,6 +51,22 @@ NAME                  ID              SIZE      PROCESSOR    CONTEXT    RUNNER  
 claude-mini:latest    f4ed661a81f0    1.5 GB    100% GPU     12288      llamacpp    3 minutes from now    
 ```
 
+## Clean up
+
+In order to remove the setup:
+
+```shell
+ollama rm claude-mini
+```
+
+```shell
+rm ~/.config/opencode/opencode.jsonc 
+rm ~/.omp/agent/config.yml          
+rm ~/.omp/agent/models.yml 
+rm ~/.pi/agent/models.json 
+rm ~/.pi/agent/settings.json
+```
+
 ## License
 
 [MIT](./LICENSE)
